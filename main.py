@@ -71,7 +71,7 @@ def click_color_areas(window_title, target_colors_hex):
             running = not running
             logger.log(f'Script running: {running}')
         time.sleep(1)
-        keyboard.add_hotkey('grave', toggle_script)
+        keyboard.add_hotkey('z', toggle_script)
 
         # Запустим периодическое нажатие кнопки
         click_button_periodically(1043, 821)
